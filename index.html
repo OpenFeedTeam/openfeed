@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="edge">
+    <style type="text/css">
+        html,body {
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            box-sizing: border-box;
+            align-items: center;
+            padding: 16px;
+        }
+        #content{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            flex: 1;
+        }
+        #logo{
+            width: 148px;
+            height: 28px;
+            border: none;
+            align-self: flex-start;
+        }
+        #slogan{
+            width: 537px;
+            height: 58px;
+            border: none;
+            align-self: center;
+        }
+        #features{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-top: 96px;
+        }
+        #features img{
+            height: 19px;
+            margin: 0px 28px;
+            border: none;
+        }
+        #email{
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.54);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <img src="img/logo.png" id="logo"/>
+        <div id="content">
+            <div style="flex:1"></div>
+            <img src="img/slogan.png" id="slogan"/>
+            <div id="features">
+                <img src="img/feature1.png"/>
+                <img src="img/feature2.png"/>
+                <img src="img/feature3.png"/>
+            </div>
+            <div style="flex:2"></div>
+        </div>
+        <span id="email">联系邮箱 support@openfeed.cloud</span>
+    </div>
+</body>
+
+</html>
