@@ -1,0 +1,131 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+a:link{text-decoration: none;}
+a:hover{color: #EB2F96;}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 16px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    flex: 1;
+}
+#logo{
+    width: 148px;
+    height: 28px;
+    border: none;
+    align-self: flex-start;
+}
+#slogan{
+    width: 537px;
+    height: 58px;
+    border: none;
+    align-self: center;
+}
+#features{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 96px;
+}
+#features img{
+    height: 19px;
+    margin: 0px 28px;
+    border: none;
+}
+#email{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+#download_items_rows{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.download_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    min-width: 110px;
+    min-height: 110px;
+    border-radius: 55px;
+    border: 1px solid #F4F4F4;
+    background: #FAFAFA;
+    margin: 96px 28px 0px 28px;
+}
+.download_item:hover{
+    background: #F4F4F4;
+}
+
+.download_item img{
+    width: 36px;
+    height: 36px;
+    border: none;
+}
+
+.download_item span{
+    font-size: 14px;
+    color: #141414;
+    margin-top: 4px;
+}
+
+.dialog{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+    background: white;
+    border-radius: 8px;
+}
+
+.alert_dialog{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.alert_dialog img{
+    width: 140px;
+    height: 140px;
+}
+
+.alert_dialog a{
+    font-size: 14px;
+    color: #141414;
+    margin-top: 4px;
+}
+
+.alert_dialog a:hover{color: #EB2F96;}
+
+#ide_dialog{
+    align-items: flex-start;
+    min-height: 100px;
+    align-self: flex-start;
+}
+
+#ide_dialog a{
+    padding: 10px 10px;
+}
+
+#ide_dialog a:hover{
+    background-color: #F4F4F4;
+    border-radius: 8px;
+}

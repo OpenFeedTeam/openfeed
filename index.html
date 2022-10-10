@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="zh-CN">
 
 <head>
     <meta charset="utf-8">
@@ -7,56 +7,10 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="edge">
-    <style type="text/css">
-        html,body {
-            margin: 0;
-            padding: 0;
-        }
-        #container{
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-            box-sizing: border-box;
-            align-items: center;
-            padding: 16px;
-        }
-        #content{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            box-sizing: border-box;
-            flex: 1;
-        }
-        #logo{
-            width: 148px;
-            height: 28px;
-            border: none;
-            align-self: flex-start;
-        }
-        #slogan{
-            width: 537px;
-            height: 58px;
-            border: none;
-            align-self: center;
-        }
-        #features{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-top: 96px;
-        }
-        #features img{
-            height: 19px;
-            margin: 0px 28px;
-            border: none;
-        }
-        #email{
-            font-size: 14px;
-            color: rgba(0, 0, 0, 0.54);
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" charset="UTF-8" src="//upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/index.js"></script>
+    <title>OpenFeed</title>
 </head>
 
 <body>
@@ -69,6 +23,35 @@
                 <img src="img/feature1.png"/>
                 <img src="img/feature2.png"/>
                 <img src="img/feature3.png"/>
+            </div>
+            <div id="download_items_rows">
+                <div id="android_item" class="download_item">
+                    <img src="img/ic_android.png"/>
+                    <span>Android</span>
+
+                    <div id="android_dialog" class="dialog alert_dialog">
+                        <img src="img/qrcode.png"/>
+                        <a href="https://feed-templates.oss-cn-guangzhou.aliyuncs.com/app-release1.0.0.apk">点击下载APP</a>
+                    </div>
+                </div>
+                <div id="ios_item" class="download_item">
+                    <img src="img/ic_apple.png"/>
+                    <span>iOS</span>
+
+                    <div id="ios_dialog" class="dialog alert_dialog">
+                        <img src="img/qrcode.png"/>
+                        <span>扫码下载APP</span>
+                    </div>
+                </div>
+                <div id="ide_item" class="download_item">
+                    <img src="img/ic_rss.png"/>
+                    <span>源编辑器</span>
+
+                    <div id="ide_dialog" class="dialog alert_dialog">
+                        <a href="https://feed-templates.oss-cn-guangzhou.aliyuncs.com/open_feed_ui_for_windows1.0.0.zip">下载 订阅源编辑器 1.0 for Windows</a>
+                        <a href="https://feed-templates.oss-cn-guangzhou.aliyuncs.com/open_feed_ui_for_mac1.0.0.zip">下载 订阅源编辑器 1.0 for Mac</a>
+                    </div>
+                </div>
             </div>
             <div style="flex:2"></div>
         </div>
