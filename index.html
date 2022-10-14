@@ -7,9 +7,12 @@
     <meta name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="edge">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
     <script type="text/javascript" charset="UTF-8" src="//upcdn.b0.upaiyun.com/libs/jquery/jquery-2.0.3.min.js"></script>
-    <script type="text/javascript" charset="UTF-8" src="js/index.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="js/utils.js"></script>
+    <script type="text/javascript">
+        writeCssElements(['css/index.css']);
+        writeJsElements(['js/index.js']);
+    </script>
     <title>OpenFeed</title>
 </head>
 
@@ -31,7 +34,7 @@
 
                     <div id="android_dialog" class="dialog alert_dialog">
                         <img src="img/qrcode.png"/>
-                        <a href="https://feed-templates.oss-cn-guangzhou.aliyuncs.com/app-release1.0.1.apk">点击下载APP</a>
+                        <a id="android_download_link" href="#">点击下载APP</a>
                     </div>
                 </div>
                 <div id="ios_item" class="download_item">
@@ -48,8 +51,8 @@
                     <span>源编辑器</span>
 
                     <div id="ide_dialog" class="dialog alert_dialog">
-                        <a href="https://feed-templates.oss-cn-guangzhou.aliyuncs.com/OpenFeed%E6%BA%90%E7%BC%96%E8%BE%91%E5%99%A8_for_windows_1.0.0.zip">下载源编辑器 1.0.0 for Windows</a>
-                        <a href="https://feed-templates.oss-cn-guangzhou.aliyuncs.com/OpenFeed%E6%BA%90%E7%BC%96%E8%BE%91%E5%99%A8_for_mac_1.0.0.zip">下载源编辑器 1.0.0 for Mac</a>
+                        <a id="windows_download_link" href="#">下载源编辑器 for windows</a>
+                        <a id="mac_download_link" href="#">下载源编辑器 for mac</a>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,8 @@
         "title": "版本更新",
         "description": "修复已知问题",
         "forceUpdate": false,
-        "downloadUrl": "https://openfeed.cloud/app_download.html"
+        "downloadUrl": "https://openfeed.cloud/app_download.html",
+        "fileDownloadUrl": "https://feed-templates.oss-cn-guangzhou.aliyuncs.com/app-release1.0.1.apk"
     },
     "ios": {
         "versionName": "1.0.1",
@@ -13,6 +14,7 @@
         "title": "版本更新",
         "description": "当前版本已不可用，请更新至最新版本。",
         "forceUpdate": false,
-        "downloadUrl": "https://openfeed.cloud/app_download.html"
+        "downloadUrl": "https://openfeed.cloud/app_download.html",
+        "fileDownloadUrl": "https://apps.apple.com/us/app/openfeed/id1645514479"
     }
 }

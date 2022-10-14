@@ -1,0 +1,18 @@
+{
+    "mac": {
+        "versionName": "1.0.0",
+        "versionCode": 1,
+        "title": "版本更新",
+        "description": "修复已知问题",
+        "forceUpdate": false,
+        "fileDownloadUrl": "https://feed-templates.oss-cn-guangzhou.aliyuncs.com/OpenFeed%E6%BA%90%E7%BC%96%E8%BE%91%E5%99%A8_for_mac_1.0.0.zip"
+    },
+    "windows": {
+        "versionName": "1.0.0",
+        "versionCode": 1,
+        "title": "版本更新",
+        "description": "修复已知问题",
+        "forceUpdate": false,
+        "fileDownloadUrl": "https://feed-templates.oss-cn-guangzhou.aliyuncs.com/OpenFeed%E6%BA%90%E7%BC%96%E8%BE%91%E5%99%A8_for_windows_1.0.0.zip"
+    }
+}
