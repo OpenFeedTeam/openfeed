@@ -1,5 +1,5 @@
 var appstore_url = 'https://apps.apple.com/us/app/openfeed/id1645514479';
-var apk_url = 'https://feed-templates.oss-cn-guangzhou.aliyuncs.com/app-release1.0.0.apk';
+var apk_url = 'https://feed-templates.oss-cn-guangzhou.aliyuncs.com/app-release1.0.1.apk';
 
 function contains(data, text){
     return data.indexOf(text) != -1;
