@@ -20,10 +20,10 @@ $(function(){
     $.get('app_info.json?t='+Date.now(), function(data){
         $('#android_download_link').attr('href', data.android.fileDownloadUrl);
     });
-    $.get('desktop_info.json?t='+Date.now(), function(data){
-        $('#windows_download_link').attr('href', data.windows.fileDownloadUrl);
-        $('#mac_download_link').attr('href', data.mac.fileDownloadUrl);
-    });
+    // $.get('desktop_info.json?t='+Date.now(), function(data){
+    //     $('#windows_download_link').attr('href', data.windows.fileDownloadUrl);
+    //     $('#mac_download_link').attr('href', data.mac.fileDownloadUrl);
+    // });
     
   
  });
